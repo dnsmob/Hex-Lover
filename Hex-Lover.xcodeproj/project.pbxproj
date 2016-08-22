@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9261350A1D3D6CE90046217E /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926135091D3D6CE80046217E /* StringExt.swift */; };
+		92B8785C1D30A13C006C2516 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B8785B1D30A13C006C2516 /* AppDelegate.swift */; };
+		92B8785E1D30A13C006C2516 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B8785D1D30A13C006C2516 /* ViewController.swift */; };
+		92B878611D30A13C006C2516 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B8785F1D30A13C006C2516 /* Main.storyboard */; };
+		92B878631D30A13C006C2516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B878621D30A13C006C2516 /* Assets.xcassets */; };
+		92B878661D30A13C006C2516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B878641D30A13C006C2516 /* LaunchScreen.storyboard */; };
+		92B8786F1D3350CF006C2516 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92B8786D1D320D1B006C2516 /* FontAwesome.otf */; };
+		92B878711D335EC2006C2516 /* ColorSliderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B878701D335EC2006C2516 /* ColorSliderUIView.swift */; };
+		92B878731D3360B8006C2516 /* ColorSliderUIView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92B878721D3360B8006C2516 /* ColorSliderUIView.xib */; };
+		92B878751D396A35006C2516 /* RandomExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B878741D396A34006C2516 /* RandomExt.swift */; };
+		92B878771D39EFA9006C2516 /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B878761D39EFA9006C2516 /* UIColorExt.swift */; };
+		A8916B527B8D8E45110F249B /* Pods_Hex_Lover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBF7AD9E63838395287AD36 /* Pods_Hex_Lover.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5172008EF039D7862F902899 /* Pods-Hex-Lover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hex-Lover.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hex-Lover/Pods-Hex-Lover.release.xcconfig"; sourceTree = "<group>"; };
+		6FBF7AD9E63838395287AD36 /* Pods_Hex_Lover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hex_Lover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		926135091D3D6CE80046217E /* StringExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
+		92B878581D30A13C006C2516 /* Hex-Lover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hex-Lover.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B8785B1D30A13C006C2516 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92B8785D1D30A13C006C2516 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92B878601D30A13C006C2516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92B878621D30A13C006C2516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92B878651D30A13C006C2516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92B878671D30A13C006C2516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B8786D1D320D1B006C2516 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.otf; path = Assets/FontAwesome.otf; sourceTree = "<group>"; };
+		92B878701D335EC2006C2516 /* ColorSliderUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSliderUIView.swift; sourceTree = "<group>"; };
+		92B878721D3360B8006C2516 /* ColorSliderUIView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorSliderUIView.xib; sourceTree = "<group>"; };
+		92B878741D396A34006C2516 /* RandomExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomExt.swift; sourceTree = "<group>"; };
+		92B878761D39EFA9006C2516 /* UIColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		92C6358C1D4087E0009FC1A7 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunesArtwork@2x"; path = "Hex-Lover/Assets.xcassets/AppIcon.appiconset/iTunesArtwork@2x"; sourceTree = "<group>"; };
+		D412C44B7F09BDD6FD616025 /* Pods-Hex-Lover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hex-Lover.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hex-Lover/Pods-Hex-Lover.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92B878551D30A13C006C2516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8916B527B8D8E45110F249B /* Pods_Hex_Lover.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B5A0140F364446FF64F9E8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D412C44B7F09BDD6FD616025 /* Pods-Hex-Lover.debug.xcconfig */,
+				5172008EF039D7862F902899 /* Pods-Hex-Lover.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		885E5E3D2F74762C4F829B1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FBF7AD9E63838395287AD36 /* Pods_Hex_Lover.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92B8784F1D30A13C006C2516 = {
+			isa = PBXGroup;
+			children = (
+				92C6358C1D4087E0009FC1A7 /* iTunesArtwork@2x */,
+				92B8786E1D320D24006C2516 /* Assets */,
+				92B8785A1D30A13C006C2516 /* Hex-Lover */,
+				92B878591D30A13C006C2516 /* Products */,
+				4B5A0140F364446FF64F9E8D /* Pods */,
+				885E5E3D2F74762C4F829B1C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92B878591D30A13C006C2516 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92B878581D30A13C006C2516 /* Hex-Lover.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92B8785A1D30A13C006C2516 /* Hex-Lover */ = {
+			isa = PBXGroup;
+			children = (
+				92B8785B1D30A13C006C2516 /* AppDelegate.swift */,
+				92B8785D1D30A13C006C2516 /* ViewController.swift */,
+				92B878701D335EC2006C2516 /* ColorSliderUIView.swift */,
+				92B8785F1D30A13C006C2516 /* Main.storyboard */,
+				92B878721D3360B8006C2516 /* ColorSliderUIView.xib */,
+				92B878621D30A13C006C2516 /* Assets.xcassets */,
+				92B878641D30A13C006C2516 /* LaunchScreen.storyboard */,
+				92B878671D30A13C006C2516 /* Info.plist */,
+				92B878741D396A34006C2516 /* RandomExt.swift */,
+				92B878761D39EFA9006C2516 /* UIColorExt.swift */,
+				926135091D3D6CE80046217E /* StringExt.swift */,
+			);
+			path = "Hex-Lover";
+			sourceTree = "<group>";
+		};
+		92B8786E1D320D24006C2516 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				92B8786D1D320D1B006C2516 /* FontAwesome.otf */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92B878571D30A13C006C2516 /* Hex-Lover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B8786A1D30A13C006C2516 /* Build configuration list for PBXNativeTarget "Hex-Lover" */;
+			buildPhases = (
+				9277B91C1D63F57600F196DE /* Run Script - bump build number */,
+				B07C0928309DE41C88E13BF2 /* [CP] Check Pods Manifest.lock */,
+				92B878541D30A13C006C2516 /* Sources */,
+				92B878551D30A13C006C2516 /* Frameworks */,
+				92B878561D30A13C006C2516 /* Resources */,
+				FADCE504CBFAF620D7A44319 /* [CP] Embed Pods Frameworks */,
+				F8895CA798249939875D53EB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hex-Lover";
+			productName = "Hex-Lover";
+			productReference = 92B878581D30A13C006C2516 /* Hex-Lover.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92B878501D30A13C006C2516 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = dnsmob;
+				TargetAttributes = {
+					92B878571D30A13C006C2516 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3B7X5W92ET;
+					};
+				};
+			};
+			buildConfigurationList = 92B878531D30A13C006C2516 /* Build configuration list for PBXProject "Hex-Lover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92B8784F1D30A13C006C2516;
+			productRefGroup = 92B878591D30A13C006C2516 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92B878571D30A13C006C2516 /* Hex-Lover */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92B878561D30A13C006C2516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B8786F1D3350CF006C2516 /* FontAwesome.otf in Resources */,
+				92B878731D3360B8006C2516 /* ColorSliderUIView.xib in Resources */,
+				92B878661D30A13C006C2516 /* LaunchScreen.storyboard in Resources */,
+				92B878631D30A13C006C2516 /* Assets.xcassets in Resources */,
+				92B878611D30A13C006C2516 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9277B91C1D63F57600F196DE /* Run Script - bump build number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - bump build number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"";
+		};
+		B07C0928309DE41C88E13BF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8895CA798249939875D53EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hex-Lover/Pods-Hex-Lover-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FADCE504CBFAF620D7A44319 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hex-Lover/Pods-Hex-Lover-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92B878541D30A13C006C2516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B878751D396A35006C2516 /* RandomExt.swift in Sources */,
+				92B878711D335EC2006C2516 /* ColorSliderUIView.swift in Sources */,
+				92B8785E1D30A13C006C2516 /* ViewController.swift in Sources */,
+				92B878771D39EFA9006C2516 /* UIColorExt.swift in Sources */,
+				9261350A1D3D6CE90046217E /* StringExt.swift in Sources */,
+				92B8785C1D30A13C006C2516 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92B8785F1D30A13C006C2516 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92B878601D30A13C006C2516 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92B878641D30A13C006C2516 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92B878651D30A13C006C2516 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92B878681D30A13C006C2516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92B878691D30A13C006C2516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92B8786B1D30A13C006C2516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D412C44B7F09BDD6FD616025 /* Pods-Hex-Lover.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Hex-Lover/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dnsmob.HexLover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		92B8786C1D30A13C006C2516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5172008EF039D7862F902899 /* Pods-Hex-Lover.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Hex-Lover/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dnsmob.HexLover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92B878531D30A13C006C2516 /* Build configuration list for PBXProject "Hex-Lover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B878681D30A13C006C2516 /* Debug */,
+				92B878691D30A13C006C2516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92B8786A1D30A13C006C2516 /* Build configuration list for PBXNativeTarget "Hex-Lover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B8786B1D30A13C006C2516 /* Debug */,
+				92B8786C1D30A13C006C2516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92B878501D30A13C006C2516 /* Project object */;
+}
